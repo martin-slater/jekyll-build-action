@@ -3,6 +3,12 @@ description: 'Local pipeline build of Jekyll content; follow-on actions must pub
 runs:
   using: 'docker'
   image: 'Dockerfile'
+  args:
+    - ${{ inputs.path }}
+inputs:
+  path:
+    description: 'Path of Jekyll source code'
+    required: false
 branding:
   icon: 'book-open'
   color: 'white'
