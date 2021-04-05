@@ -4,4 +4,4 @@ USER root
 
 COPY entrypoint.sh /entrypoint.sh
 
-ENTRYPOINT ["entryPoint"]
+ENTRYPOINT ["entrypoint.sh"]
