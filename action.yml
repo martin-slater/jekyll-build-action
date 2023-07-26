@@ -1,4 +1,4 @@
-name: 'Build Jekyll ToolBox'
+name: 'Build Jekyll ToolBox from a subdirectory'
 description: 'Local pipeline build of Jekyll content; follow-on actions must publish it somewhere'
 runs:
   using: 'docker'
