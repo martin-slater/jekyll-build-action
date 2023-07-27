@@ -25,8 +25,9 @@ fi
 ####################################################
 
 echo "Starting Jekyll build"
-jekyll --version
-jekyll build --trace
+bundle install
+bundle exec jekyll --version
+bundle exec jekyll build --trace
 
 ####################################################
 # Build completed
