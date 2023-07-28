@@ -25,6 +25,7 @@ fi
 ####################################################
 
 echo "Starting Jekyll build"
+gem update --system
 bundle install
 bundle exec jekyll --version
 bundle exec jekyll build --trace
@@ -33,4 +34,4 @@ bundle exec jekyll build --trace
 # Build completed
 ####################################################
 
-echo "Completed Jekll build"
+echo "Completed Jekyll build"
